@@ -15,10 +15,18 @@
 export default class Character {
   constructor(level, type = 'generic') {
     this.level = level;
-    this.attack = 0;
-    this.defence = 0;
+    // this.attack = 0;
+    // this.defence = 0;
     this.health = 50;
     this.type = type;
     // TODO: выбросите исключение, если кто-то использует "new Character()"
+    if (new.target.name === 'Character') {
+      throw new Error('Такого персонажа создать нельзя');
+    }
+  }
+ 
+ setAttackByLevel(level) {
+  const coeff = (80 + this.health) / 100;
+  return coeff ** (level - 1);
   }
 }

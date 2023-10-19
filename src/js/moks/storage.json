@@ -1,0 +1,82 @@
+{
+    "levelZone": 2,
+    "characters": [
+      {
+        "character": {
+          "level": 2,
+          "health": 100,
+          "type": "magician",
+          "attack": 13,
+          "defence": 40,
+          "movementRange": 1,
+          "attackRange": 4
+        },
+        "position": 48
+      },
+      {
+        "character": {
+          "level": 2,
+          "health": 100,
+          "type": "swordsman",
+          "attack": 52,
+          "defence": 10,
+          "movementRange": 4,
+          "attackRange": 1
+        },
+        "position": 40
+      },
+      {
+        "character": {
+          "level": 1,
+          "health": 50,
+          "type": "magician",
+          "attack": 10,
+          "defence": 40,
+          "movementRange": 1,
+          "attackRange": 4
+        },
+        "position": 9
+      },
+      {
+        "character": {
+          "level": 1,
+          "health": 50,
+          "type": "undead",
+          "attack": 40,
+          "defence": 10,
+          "movementRange": 4,
+          "attackRange": 1
+        },
+        "position": 46
+      },
+      {
+        "character": {
+          "level": 1,
+          "health": 50,
+          "type": "undead",
+          "attack": 40,
+          "defence": 10,
+          "movementRange": 4,
+          "attackRange": 1
+        },
+        "position": 22
+      },
+      {
+        "character": {
+          "level": 2,
+          "health": 50,
+          "type": "undead",
+          "attack": 52,
+          "defence": 10,
+          "movementRange": 4,
+          "attackRange": 1
+        },
+        "position": 23
+      }
+    ],
+    "move": true,
+    "selectedCharacter": null,
+    "movementCells": [],
+    "attackCells": [],
+    "gameOver": false
+  }
